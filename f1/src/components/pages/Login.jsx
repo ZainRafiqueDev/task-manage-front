@@ -108,9 +108,7 @@ const Login = () => {
                          placeholder-gray-400 text-gray-900 
                            focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500" 
                           placeholder="Enter your password" 
-                                type="password" 
-                                value="zain123"
-                                autocomplete="current-password"
+                                
 />
               </div>
             </div>
@@ -154,4 +152,5 @@ const Login = () => {
 };
 
 export default Login;
+
 
