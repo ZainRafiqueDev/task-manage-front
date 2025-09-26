@@ -102,16 +102,16 @@ const Login = () => {
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                   <Lock className="h-5 w-5 text-gray-400" />
                 </div>
-                <input
-                  type="password"
-                  required
-                  className="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg
-                             placeholder-gray-400 text-gray-900 
-                             focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                  placeholder="Enter your password"
-                  value={form.password}
-                  onChange={(e) => setForm({ ...form, password: e.target.value })}
-                />
+                <input 
+                          required 
+                          class="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg
+                         placeholder-gray-400 text-gray-900 
+                           focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500" 
+                          placeholder="Enter your password" 
+                                type="password" 
+                                value="zain123"
+                                autocomplete="current-password"
+/>
               </div>
             </div>
 
@@ -154,3 +154,4 @@ const Login = () => {
 };
 
 export default Login;
+
